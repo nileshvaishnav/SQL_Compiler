@@ -1,0 +1,7 @@
+select name 
+from student
+where column1 in (select name
+		    from student 
+		    where hostel = lohit
+		   );
+

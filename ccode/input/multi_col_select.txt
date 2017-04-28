@@ -1,0 +1,4 @@
+select column1, column2 
+from student
+where column1 = 876;
+

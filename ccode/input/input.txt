@@ -1,0 +1,73 @@
+create table student ( id integer not null primary key,
+			 name varchar(10) not null,
+			 hostel varchar(10)
+			);
+
+select name
+from student;
+
+
+select name 
+from student
+where column1 in (select name
+		    from student 
+		    where hostel = lohit
+		   );
+
+
+select column1, column2 
+from student
+where column1 = 876;
+
+
+insert into student(name, hostel)
+values(vivek, kameng);
+
+
+insert into students(name, hostel)
+values(vivek, kameng),
+(rahul, lohit);
+
+
+insert into student
+select * from office;
+
+
+
+
+update student
+set name = nilesh
+where name = nilesh ;
+
+
+delete from      student;
+
+delete from student 
+where name = nilesh;
+
+
+
+
+drop table student;
+
+
+
+alter table student
+drop column1,
+drop column2;
+
+
+alter table student
+add webmail varchar(34) primary key,
+add pin_code decimal(21);
+
+
+alter table student
+modify webmail char(10);
+
+
+
+
+
+
+

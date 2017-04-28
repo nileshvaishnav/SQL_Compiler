@@ -1,0 +1,4 @@
+create table student ( id integer not null primary key,
+			 name varchar(10) not null,
+			 hostel varchar(10)
+			);

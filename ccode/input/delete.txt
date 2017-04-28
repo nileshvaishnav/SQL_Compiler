@@ -1,0 +1,7 @@
+
+delete from student 
+where name = nilesh;
+
+delete from      student;
+
+

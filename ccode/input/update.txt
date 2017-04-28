@@ -1,0 +1,5 @@
+
+update student
+set name = nilesh
+where name = nilesh ;
+
